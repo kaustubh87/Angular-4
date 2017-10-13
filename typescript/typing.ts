@@ -1,3 +1,14 @@
-let myString: string;
+let myString = 'This is a string without';
 
-myString = 'This is a string';
+let yetAnotherString; 
+yetAnotherString = "This is a string";
+
+yetAnotherString = 4;
+
+//Other Basic Types
+
+let aString: string;
+let aNumber: number;
+let aBoolean: boolean;
+let anArray: Array<string>;
+let anything: any;
