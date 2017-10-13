@@ -10,5 +10,5 @@ yetAnotherString = 4;
 let aString: string;
 let aNumber: number;
 let aBoolean: boolean;
-let anArray: Array<string>;
+let anArray: Array<string>;  // Generic type
 let anything: any;
