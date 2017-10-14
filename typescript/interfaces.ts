@@ -7,3 +7,4 @@ interface User{
 let user: User;
 
 user = {username: 'max', password: 'supersecret' };
+
