@@ -13,7 +13,7 @@ import { ServerComponent } from './server/server.component';
     AppComponent,
     ServerComponent
   ],
-  imports: [
+  imports: [  /*Add some other modules to this module */
     BrowserModule,
     FormsModule
   ],
