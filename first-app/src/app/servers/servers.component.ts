@@ -1,8 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
- /* selector: 'app-servers',*/
- selector: '[app-servers]',
+
+  /* Select by elements */
+
+  selector: 'app-servers',
+
+ /* Select by attributes
+ selector: '[app-servers]', */
+
+ /* Select by class
+ selector : '.app-servers', */
+
   /*templateUrl: './servers.component.html',*/
   template: `<app-server></app-server>
   <app-server></app-server>`,
