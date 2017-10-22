@@ -10,7 +10,7 @@ export class ServerComponent {
   serverStatus = 'offline';
 
 /* Defining a method to get server status*/
-  getServerStatus(){
+  getServerStatus() {
     return this.serverStatus;
   }
 }
