@@ -26,6 +26,6 @@
   <p>No server was created!</p></ng-template>
 <!-- String Interpolation -->
 <!--<p>{{ allowNewServer }}</p>-->
-<app-server></app-server>
+<app-server *ngFor="let server of servers"></app-server>
 
 
