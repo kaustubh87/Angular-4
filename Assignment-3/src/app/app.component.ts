@@ -6,4 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  showContent = true;
+  count = 0;
+
+  showDetails() {
+    this.count++;
+    this.showContent = false;
+  }
+
 }
