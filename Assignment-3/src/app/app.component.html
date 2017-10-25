@@ -9,10 +9,8 @@
         <li>Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</li>
       </ol>
       <button class="btn btn-warning" (click) ="showDetails()">Display Details</button>
-      <p *ngIf="!showContent ; else showContent;">
-
-        Secret Password = "Tuna"
-      </p>
+      <p *ngIf="showHide">{{ showContent }}</p><br />
+      {{count}}
     </div>
 
 

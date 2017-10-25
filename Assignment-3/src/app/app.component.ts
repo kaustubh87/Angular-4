@@ -7,12 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  showContent = true;
+  showContent = 'Secret Password = tuna';
   count = 0;
+  countClicks = ['0'];
+
+  showHide: boolean;
 
   showDetails() {
-    this.count++;
-    this.showContent = false;
+  this.showHide = !this.showHide;
+  this.count++;
+
   }
 
 }
