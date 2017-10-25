@@ -17,7 +17,11 @@ export class AppComponent {
   showDetails() {
   this.showHide = !this.showHide;
   this.count++;
-  this.log.push(this.log.length+1);
+  /*this.log.push(this.log.length+1);*/
+
+  /* Get Timestamp */
+
+  this.log.push(new Date());
 
   }
 
