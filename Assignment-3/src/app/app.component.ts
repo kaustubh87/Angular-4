@@ -8,14 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   showContent = 'Secret Password = tuna';
-  count = 0;
-  countClicks = ['0'];
+  // tslint:disable-next-line:no-inferrable-types
+  count: number = 0;
+  log = [];
 
   showHide: boolean;
 
   showDetails() {
   this.showHide = !this.showHide;
   this.count++;
+  this.log.push(this.log.length+1);
 
   }
 

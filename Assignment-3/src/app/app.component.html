@@ -10,7 +10,9 @@
       </ol>
       <button class="btn btn-warning" (click) ="showDetails()">Display Details</button>
       <p *ngIf="showHide">{{ showContent }}</p><br />
-      {{count}}
+      <p *ngFor="let logItem of log" [ngStyle] = "{backgroundColor: logItem >= 5 ? 'blue' : 'transparent'}"
+        [ngClass] = "{'white-text': logItem >= 5}"
+        >{{ logItem }}</p>
     </div>
 
 
