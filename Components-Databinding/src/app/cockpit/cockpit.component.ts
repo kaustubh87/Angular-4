@@ -15,7 +15,7 @@ export class CockpitComponent implements OnInit {
   ngOnInit() {
   }
 
-  onAddServer() {
+ /* onAddServer() {
     this.serverElements.push({
       type: 'server',
       name: this.newServerName,
@@ -30,5 +30,5 @@ export class CockpitComponent implements OnInit {
       content: this.newServerContent
     });
   }
-
+*/
 }
